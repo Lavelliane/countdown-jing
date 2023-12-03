@@ -4,8 +4,8 @@ const minutesElement = document.getElementById('minutes');
 const secondsElement = document.getElementById('seconds');
 const progressElement = document.querySelector('.progress-value');
 
-const startDate = new Date("11/7/2023").getTime(); // November 7, 2023
-const targetDate = new Date("12/2/2023").getTime(); // December 2, 2023
+const startDate = new Date("12/3/2023").getTime(); // November 7, 2023
+const targetDate = new Date("01/13/2024").getTime(); // December 2, 2023
 
 async function getQuote(){
     const res = await fetch('https://api.quotable.io/quotes/random?tags=love')
